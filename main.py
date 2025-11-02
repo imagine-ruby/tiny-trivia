@@ -20,7 +20,6 @@ welcome="""
  ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝                                                                        
 """
 print(welcome)
-
 print("welcome to my first python project!")
 name = input("what is your name? ")
 age = int(input("what is your age? "))
@@ -39,6 +38,9 @@ if ans.lower() == "yes":
     question("what's the capital of brazil","rio de janerio")
     question("What's the capital of spain","madrid")
     question("what's the capital of australia","canberra")
+    print("very good! you completed the trivia without losing all your health, congratulations on winning!!")
+    
+
 
 
 
