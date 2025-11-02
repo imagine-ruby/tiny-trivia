@@ -11,6 +11,15 @@ def question(question, answer):
             print("you lost, thanks for taking the trivia! you are always welcomed to try again")
             exit()
 
+welcome="""                                                                                                                                                                                  
+██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
+██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝
+██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  
+██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  
+╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗
+ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝                                                                        
+"""
+print(welcome)
 
 print("welcome to my first python project!")
 name = input("what is your name? ")
@@ -30,6 +39,7 @@ if ans.lower() == "yes":
     question("what's the capital of brazil","rio de janerio")
     question("What's the capital of spain","madrid")
     question("what's the capital of australia","canberra")
+
 
 
 
